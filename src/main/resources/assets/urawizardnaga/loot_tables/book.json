@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "name": "splels",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell1",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "master" ],
+                            "elements": [ "sorcery" ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell2",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced" ],
+                            "elements": [ "sorcery" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

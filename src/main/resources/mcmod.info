@@ -1,0 +1,16 @@
+[
+{
+  "modid": "urawizardnaga",
+  "name": "You are a wizard, Naga!",
+  "description": "Generates Electroblob's Wizardry Loot in the Twilight Forest",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [kold_unec],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

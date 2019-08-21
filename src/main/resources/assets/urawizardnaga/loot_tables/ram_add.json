@@ -1,0 +1,100 @@
+{
+    "pools": [
+        {
+            "name": "block0",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 0
+                }]
+            }]
+        },
+        {
+            "name": "block1",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 1
+                }]
+            }]
+        },
+        {
+            "name": "block2",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 2
+                }]
+            }]
+        },
+        {
+            "name": "block3",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 3
+                }]
+            }]
+        },
+        {
+            "name": "block4",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 4
+                }]
+            }]
+        },
+        {
+            "name": "block5",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 5
+                }]
+            }]
+        },
+        {
+            "name": "block6",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 6
+                }]
+            }]
+        },
+        {
+            "name": "block7",
+            "rolls": 1,
+            "entries": [{
+                "type": "item",
+                "name": "ebwizardry:crystal_block",
+                "functions": [{
+                    "function": "set_data",
+                    "data": 7
+                }]
+            }]
+        }
+    ]
+}

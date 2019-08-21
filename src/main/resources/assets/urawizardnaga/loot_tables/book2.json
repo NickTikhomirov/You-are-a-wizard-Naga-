@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "name": "splels",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell1",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "apprentice" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

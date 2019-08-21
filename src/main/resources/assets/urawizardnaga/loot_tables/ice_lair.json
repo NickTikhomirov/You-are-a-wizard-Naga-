@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "name": "loots",
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_light"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_boots_ice"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_minion_variants"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:attunement_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:storage_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:cooldown_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_lava_walking"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_conjurer"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_condensing"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_ice_melee"
+                }
+            ]
+        }
+    ]
+}

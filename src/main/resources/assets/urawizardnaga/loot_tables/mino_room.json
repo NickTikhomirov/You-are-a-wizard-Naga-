@@ -1,0 +1,87 @@
+{
+    "pools": [
+        {
+            "name": "splels",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced", "apprentice" ],
+                            "elements": [ "sorcery", "earth", "healing", "fire" ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:storage_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:cooldown_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:blast_upgrade"
+                }
+            ]
+        },
+        {
+            "name": "loots",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_feeding"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_minion_health"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_flight"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_stop_time"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_haggler"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_transportation"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_light"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_leggings_sorcery"
+                }
+            ]
+        },
+        {
+            "name": "splels2",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "novice" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

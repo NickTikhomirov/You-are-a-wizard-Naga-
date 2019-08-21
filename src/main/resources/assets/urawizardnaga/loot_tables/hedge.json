@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "name": "spells_healing",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell1",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "apprentice", "advanced" ],
+                            "elements": [ "healing" ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell2",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "master" ],
+                            "elements": [ "healing" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "spells_forest",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "apprentice" ],
+                            "elements": [ "earth" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ring",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_earth_melee",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 7
+                }
+            ]
+        }
+    ]
+}

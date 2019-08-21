@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "name": "spells_necromancy",
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced", "master" ],
+                            "elements": [ "necromancy" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "spells_sorcerery",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced", "apprentice" ],
+                            "elements": [ "sorcery" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

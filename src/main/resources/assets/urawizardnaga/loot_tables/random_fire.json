@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "name": "loot",
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_disintegration"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_combustion"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_fire_melee"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_fire_protection"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_fire_biome"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_recovery"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_fire_cloaking"
+                }
+            ]
+        }
+    ]
+}

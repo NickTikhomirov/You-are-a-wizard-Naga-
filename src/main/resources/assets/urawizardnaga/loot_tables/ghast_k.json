@@ -1,0 +1,79 @@
+{
+    "pools": [
+        {
+            "name": "splels",
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell1",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced", "apprentice" ],
+                            "elements": [ "lightning" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "loot",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_storm"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_potential"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_extraction"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_condensing"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_channeling"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_wisdom"
+                }
+            ]
+        },
+        {
+            "name": "upgrade",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:storage_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:cooldown_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:blast_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:duration_upgrade"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:condenser_upgrade"
+                }
+            ]
+        }
+    ]
+}

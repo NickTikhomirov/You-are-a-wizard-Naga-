@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "name": "loots",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_paladin"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:ring_mind_control"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_flight"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_haggler"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_transportation"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_light"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_boots_sorcery"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:charm_minion_variants"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_banishing"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_resurrection"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:storage_upgrade"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "name": "splels",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:spell_book",
+                    "entryName": "spell1",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "ebwizardry:random_spell",
+                            "tiers": [ "advanced", "apprentice" ],
+                            "elements": [ "fire" ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "loot",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_hat_fire"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_robe_fire"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:amulet_fire_protection"
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:wizard_boots_fire"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "urawizardnaga:random_fire"
+                }
+            ]
+        }
+    ]
+}
